@@ -1,0 +1,22 @@
+{
+  "name": "scrappy",
+  "version": "1.0.0",
+  "description": "A minimal web scraper for Sympla event pages",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "bun run index.ts",
+    "scrape": "bun run index.ts",
+    "discover": "bun run src/discover-api.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "playwright": "^1.57.0"
+  }
+}
