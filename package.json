@@ -1,0 +1,30 @@
+{
+  "name": "sympla-scraper",
+  "version": "1.0.0",
+  "description": "Web scraper for Sympla events using Browserbase",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "npx tsx src/index.ts",
+    "scrape": "npx tsx src/index.ts"
+  },
+  "keywords": [
+    "sympla",
+    "scraper",
+    "browserbase",
+    "events"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@browserbasehq/sdk": "^2.0.0",
+    "playwright-core": "^1.40.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  }
+}
