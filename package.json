@@ -8,6 +8,7 @@
   "scripts": {
     "start": "bun run index.ts",
     "scrape": "bun run index.ts",
+    "scrape:cloud": "bun run index-browserbase.ts",
     "discover": "bun run src/discover-api.ts"
   },
   "devDependencies": {
@@ -17,6 +18,8 @@
     "typescript": "^5"
   },
   "dependencies": {
-    "playwright": "^1.57.0"
+    "@browserbasehq/sdk": "^2.0.0",
+    "playwright": "^1.57.0",
+    "playwright-core": "^1.57.0"
   }
 }
